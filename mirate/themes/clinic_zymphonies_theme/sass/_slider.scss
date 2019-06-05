@@ -1,0 +1,93 @@
+
+/*Flexslider*/
+
+.flexslider {
+	border: 0;
+	margin: 0;
+	@include box-shadow(none);
+	@include border-radius(0);
+	max-width: 100%;
+
+	.slider-caption{
+		display: none;
+		position: absolute;
+		left: 2%;
+		bottom: 2%;
+		z-index: 99;
+		width: 60%;
+		text-align: left;
+		font-size: 1.1em;
+		line-height: 150%;
+		color: #fff;
+		padding: 15px;
+		background: #000;
+	}
+
+	.slider-title{
+		font-size: 1.5em;
+		font-weight: bold;
+		color: #fff;
+	}
+
+	.slider-description{
+		display: inline-block;
+		clear: both;
+	}
+
+	.slides{
+		
+		li{
+			position: relative;
+
+			&:after{
+				content:"";
+				position: absolute;
+				top: 0;
+				right: 0;
+				left: 0;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.5);
+				transition: all 2s;
+			}
+		}
+	}
+
+	.flex-direction-nav{
+		display: none;
+		position: absolute;
+		top: 50%;
+		width: 100%;
+
+		li{
+			list-style: none;
+		}
+
+		a{
+			font-size: 0;
+    		padding: 10px;
+		}
+	}
+
+	.flex-control-paging li a {
+	    width: 8px;
+	    height: 8px;
+	    display: block;
+	    background: #fff;
+	    cursor: pointer;
+	    text-indent: -9999px;
+	    font-size: 0;
+	    overflow: hidden;
+	    @include border-radius(50%);
+
+	    &.flex-active{
+	    	background: $linkColor;
+	    }
+	}
+
+	.flex-control-nav{
+		bottom: 0;
+		text-align: right;
+		padding: 10px;
+	}
+
+}

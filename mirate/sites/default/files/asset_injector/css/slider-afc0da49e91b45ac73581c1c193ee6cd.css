@@ -1,0 +1,14 @@
+.flexslider .slider-caption{
+  background-color: transparent;
+  /*margin-bottom: 20%;*/
+  width: 40%;
+  text-align: justify;
+}
+
+.flex-active-slide{
+  height:100%;
+}
+
+.flexslider .slides img {
+    height: 500px;
+}

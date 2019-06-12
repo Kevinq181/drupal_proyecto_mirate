@@ -1,0 +1,28 @@
+.header{
+  background: #000;
+}
+
+.top-bar{
+  background:#C82300;
+}
+
+.copyright{
+  background:#000;
+  border-top:none;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.row{
+  text-transform: uppercase;
+  
+}
+
+ul#main-menu a{
+  color:#40586D;
+  font-weight: bold;
+}
+
+ul#main-menu a:hover{
+  color:red;
+}

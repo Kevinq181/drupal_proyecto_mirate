@@ -1,0 +1,21 @@
+.main-content {
+  background: #11141d;
+  color: white;
+}
+.sidebar {
+    background: #2b2e36;
+}
+
+input#edit-keys {
+    background: #2b2e36;
+    color: white;
+    border-color: #2b2e36;
+}
+
+input#edit-keys:focus{
+  border-color: #148e9e;
+}
+
+.path-frontpage .main-content {
+    border-top: none;
+}

@@ -1,0 +1,28 @@
+.flexslider .slider-caption{
+  background-color: transparent;
+  margin-bottom: 10%;
+  margin-left:6%;
+  width: 40%;
+  text-align: justify;
+}
+
+.flex-active-slide{
+  height:100%;
+}
+
+/*.flexslider .slides img {
+    height: 100%;
+}*/
+
+
+a.more-link {
+    color: white;
+    background: gray;
+    padding: 1em;
+}
+
+
+a.more-link:hover {
+    color: gray;
+    background: white;
+}
